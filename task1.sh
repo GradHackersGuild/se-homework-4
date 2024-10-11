@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ps aux | grep infinite.sh | grep -v grep |awk '{print $2}' |xargs -r kill
+ps aux | grep [i]nfinite.sh | grep -v grep | awk '{print $2}' | xargs kill
